@@ -1,0 +1,126 @@
+ /*This is a CSS comment */
+
+/*
+* {outline: 1px solid red !important;
+}  */
+
+/* These rules apply to tags on the page */
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+/* These rules apply to IDs on the page */
+#top {
+    background-color: #94c050;
+    padding: 50px;
+    margin: -20px -20px 10px -20px;
+}
+
+#bottom {
+    background-color: #94c050;
+    padding: 50px;
+    margin: 60px -20px -40px -20px;
+}
+
+/* These rules apply to Classes used throughout the page */
+.top-content {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.subheader {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+}
+
+.listen-section {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.listen {
+    font-size: 26px;
+    text-align: right;
+}
+
+.spotify-image {
+    max-width: 200px;
+    margin: 0;
+}
+
+.song-section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.song {
+    margin-top: 30px
+}
+
+.artist {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.artist-pic {
+    max-width: 800px;
+    margin: 0;
+}
+
+.player {
+    margin-top: 0px;
+}
+
+.description {
+    max-width: 800px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    padding: 10px 5px 5px 5px;
+    text-align: justify;
+    vertical-align: text-top;
+}
+
+.smaller {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* The rules here apply to the bottom banner */
+.bottom-content {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.top-link {
+    text-align: right;
+}
+
+.red-bull {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-link {
+    font-size: inherit;
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
